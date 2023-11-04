@@ -3,6 +3,8 @@
 https://github.com/bb-uraaka/y-1121-swiftui/assets/149889073/5d967bfa-06b9-4653-8ecb-178267d68cd3
 
 ## 說明
+使用者點選出拳後，app 會透過轉盤隨機決定電腦出拳，顯示輸贏狀況並計算比數。
+
 - 利用 `GeometryReader` 讀取容器寬度與選項座標，就能知道要 offset 多少距離
 - 使用 async function 搭配 `Task.sleep` 和 `withAnimation` 就能方便地寫出 procedural 動畫
 - 使用 `Int.random` 可產生隨機亂數
